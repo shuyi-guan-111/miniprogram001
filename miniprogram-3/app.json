@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+     "pages/aboutus/aboutus",
+     "pages/product/product"
+    ],
+  
+
+  "window":{
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "智盈迅科",
+    "navigationBarTextStyle": "black"
+  },
+
+
+"tabBar": {
+  "list": [
+    {
+    "pagePath": "pages/index/index",
+    "text": "首页",
+    "iconPath": "images/home01.png",
+    "selectedIconPath": "images/home02.png"
+  },
+  {
+    "pagePath": "pages/aboutus/aboutus",
+    "text": "关于我们",
+    "iconPath": "images/aboutus01.png",
+    "selectedIconPath": "images/aboutus02.png"
+  },
+    {
+       "pagePath": "pages/product/product",
+        "text": "产品消息",
+        "iconPath": "images/product01.png",
+        "selectedIconPath": "images/product02.png"
+      }
+
+]
+
+},
+
+"style": "v2",
+"sitemapLocation": "sitemap.json"
+}
